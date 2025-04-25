@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Open Sans", sans-serif;
+}
+
+body {
+  @apply bg-black text-white font-sans;
+}
+
+p {
+  @apply text-[21px] leading-[1.43] font-light;
+}
+
+.line-clamp-paragraph {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 11;
+}
+
+.main-section {
+  @apply px-4 py-10 lg:py-0 lg:mt-[120px] lg:mb-[120px];
+}
+
+h2 {
+  @apply gap-2 self-stretch border-b border-white mb-[30px] pb-[30px] text-[30px] font-light leading-[1.1] uppercase;
+}
+
+@layer components {
+  a {
+    @apply text-white opacity-100 hover:opacity-70 transition-opacity duration-200;
+  }
+}
