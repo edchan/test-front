@@ -32,6 +32,6 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        branch: gh-pages  # The branch where the site will be deployed
+        branch: main  # The branch where the site will be deployed
         folder: dist      # Folder containing the build output (Vite's default)
         token: ${{ secrets.GITHUB_TOKEN }}
