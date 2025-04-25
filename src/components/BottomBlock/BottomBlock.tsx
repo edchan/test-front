@@ -35,7 +35,7 @@ const BottomBlock: React.FC = () => {
     <section className="main-section">
       <div className="max-w-6xl mx-auto max-w-[1146px]">
         <div className="flex justify-center">
-          <h2 className="inline-block text-center border-b border-white mb-[30px] pb-[30px] text-[30px] font-light leading-[1.1] uppercase">
+          <h2>
             <a href="#">{blockTitle}</a>
           </h2>
         </div>
