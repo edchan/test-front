@@ -51,7 +51,7 @@ const ImageWithModal: React.FC<ImageWithModalProps> = ({
             >
               ✕
             </button>
-            <img src={src} alt={alt} className="max-w-full max-h-[80vh]" />
+            <img src={`./images/${src}`} alt={alt} className="max-w-full max-h-[80vh]" />
           </div>
         </div>
       )}
