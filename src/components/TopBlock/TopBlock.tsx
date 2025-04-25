@@ -11,15 +11,15 @@ const TopBlock: React.FC = () => {
     subparagraph: 'Keep water between 67 and 68°C for a flavourful, tender yolk',
     images: [
       {
-        src: '/images/image1.png',
+        src: 'image1.png',
         alt: 'Cooking close-up',
       },
       {
-        src: '/images/image2.png',
+        src: 'image2.png',
         alt: 'Chef preparing ingredients',
       },
       {
-        src: '/images/image3.png',
+        src: 'image3.png',
         alt: 'Eggs',
       },
     ],

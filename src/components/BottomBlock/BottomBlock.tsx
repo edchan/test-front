@@ -12,19 +12,19 @@ const BottomBlock: React.FC = () => {
   const blockTitle = "Taste the Colours";
   const items: ItemData[] = [
     {
-      image: "/images/image4.png",
+      image: "image4.png",
       alt: 'Red image',
       title: "Red",
       description: "Red foods remind us of berries and soft fruits, so we anticipate a sweet taste.",
     },
     {
-      image: "/images/image5.png",
+      image: "image5.png",
       alt: 'Green image',
       title: "Green",
       description: "Fresh, zingy green colours are reminiscent of unripe fruit, promising sour or acid flavours",
     },
     {
-      image: "/images/image6.png",
+      image: "image6.png",
       alt: 'White image',
       title: "White",
       description: "White foods evoke memories of salt and salty flavours, driving the expectation of a savoury treat.",

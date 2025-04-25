@@ -31,7 +31,7 @@ const ImageWithModal: React.FC<ImageWithModalProps> = ({
   return (
     <>
         <img
-          src={src}
+          src={`./images/${src}`}
           alt={alt}
           className={`cursor-pointer transition duration-200 ease-in-out hover:opacity-80 ${imageClassName}`}
           onClick={handleOpen}
